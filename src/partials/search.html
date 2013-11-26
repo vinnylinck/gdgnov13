@@ -1,0 +1,12 @@
+<center>
+    <input type="search" value="" placeholder="type here" ng-model="queryTerm" class="topcoat-search-input" style="color:black">
+    <a class="topcoat-button--cta" ng-click="findResults()" ng-show="isFindVisible">Find</a>
+</center>
+<div class="topcoat-list__container">
+    <h3 class="topcoat-list__header">Found <span ng-bind="results.hits.total"></span> results</h3>
+    <ul class="topcoat-list">
+        <li class="topcoat-list__item"  ng-repeat="doc in results.hits.hits" ng-click="showDetail(doc._id)" >
+            <span ng-bind="doc._source.name"></span>
+        </li>
+    </ul>
+</div> 
