@@ -1,0 +1,17 @@
+{
+  "name": "gdgnov13",
+  "version": "0.1.0",
+  "description": "AngularJS sample app for GDG Poa presentation on Nov-13.",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "AngularJS",
+    "Javascript",
+    "GDG",
+    "Google"
+  ],
+  "author": "Vinicius Linck",
+  "license": "MIT"
+}

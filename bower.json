@@ -1,0 +1,26 @@
+{
+  "name": "gdgnov13",
+  "version": "0.1.0",
+  "authors": [
+    "Vinicius Linck <vinnylinck@gmail.com>"
+  ],
+  "description": "AngularJS sample apple for GDG Poa presentation on Nov-13.",
+  "main": "src/index.html",
+  "keywords": [
+    "AngularJS",
+    "Javascript",
+    "GDG",
+    "Google"
+  ],
+  "license": "MIT",
+  "homepage": "http://vinnylinck.tumblr.com/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/lib",
+    "test",
+    "tests"
+  ]
+}
